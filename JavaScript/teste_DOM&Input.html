@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>JavaScript</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            span {
+                font-size: 1.2em;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                margin-bottom: 5px;
+                display: block;
+            }
+            input, select {
+                display: block;
+                margin: 10px auto;
+            }
+            input#submit {
+                padding: auto 5px;
+            }
+            .area-principal {
+                text-align: center;
+                padding: 25px;
+                margin: 20px auto;
+                width: 250px;
+                height: fit-content;
+                background-color: #f8f8f8;
+                border-radius: 10px;
+                border: 1px solid #ccc;
+            }
+            .campo {
+                margin-bottom: 25px;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="area-principal">
+            <form>
+
+                <div class="campo">
+                    <label for="nome">
+                        <span>Qual é o seu nome?</span>
+                    </label>
+                    <input type="text" id="nome" placeholder="Seu nome">
+                </div>
+
+                <div class="campo">
+                    <label for="frutas">
+                        <span>Qual sua fruta favorita?</span>
+                    </label>
+                    <select name="frutas" id="frutas">
+                        <option value="abacaxi">Abacaxi</option>
+                        <option value="maça">Maça</option>
+                        <option value="banana">Banana</option>
+                    </select>
+                </div>
+
+                <input type="submit" value="Enviar" id="submit">
+
+            </form>
+        </div>
+    
+        <script>
+            
+            document.getElementById('submit').onclick
+
+        </script>
+        
+    </body>
+
+</html>

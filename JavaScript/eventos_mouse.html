@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>JavaScript</title>
+        <meta charset="utf-8">
+        <script>
+
+            function acao() {
+                alert('Evento disparado')
+            }
+
+        </script>
+    </head>
+
+    <body>
+        <!--Interações do mouse com o elemento:-->
+
+        <!--Click com botão esquerdo no mouse-->
+        <div  style="color: white; font-weight: bolder;">
+        <div onclick="acao()" style="background-color: #ccc; width: 100px; height: 100px; cursor: pointer; text-align: center;">
+            onclick
+        </div><br>
+        <!--Double click com botão esquerdo no mouse-->
+        <div ondblclick="acao()" style="background-color: #ccc; width: 100px; height: 100px; cursor: pointer; text-align: center;">
+            ondblclick
+        </div><br>
+        <!--Após pressionar, soltar o botão do mouse-->
+        <div onmouseup="acao()" style="background-color: #ccc; width: 100px; height: 100px; cursor: pointer; text-align: center;">
+            onmouseup
+        </div><br>
+        <!--Passar o ponteiro sobre o elemento-->
+        <div onmouseover="acao()" style="background-color: #ccc; width: 100px; height: 100px; cursor: pointer; text-align: center;">
+            onmouseover
+        </div><br>
+        <!--Quando o ponteiro deixa o local onde o elemento faz parte-->
+        <div onmouseout="acao()" style="background-color: #ccc; width: 100px; height: 100px; cursor: pointer; text-align: center;">
+            onmouseout
+        </div><br>
+        </div>
+    </body>
+
+</html>
